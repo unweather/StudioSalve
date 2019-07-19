@@ -1,0 +1,64 @@
+body{
+	margin: 0;
+}
+.container{
+	height: 937px;
+	width: 1920px;
+}
+.sidebar{
+	width: 270px;
+	background-color: white;
+	opacity: 1;
+	float: left;
+}
+.logo{
+	
+}
+.logo img{
+	margin-top: 35px;
+	margin-left: 35px;
+	margin-bottom: 35px;
+}
+.navbar{
+	height: 740px;
+	//background-color: green;
+}
+.navbar ul{
+	list-style-type: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #555;
+	padding: 0;
+	margin: 0 0 0 35px;
+}
+.navbar ul>li{
+	transition: margin-left 0.25s ease-in-out;
+	line-height: 20px;
+}
+.navbar ul>li:hover{
+	margin-left: 10px;
+}
+.social-icons{
+	height: 47px;
+	padding: 20px;
+}
+.gray_hyperlink {
+	color: #333;
+	text-decoration: none;
+}
+.icon{
+	float: left;
+}
+.icon:hover {
+	color: #ccc;
+}
+.content{
+	float: left;
+	background-image: url(img/glowna_wieksza_progressive_85.jpg);
+	background-size: cover;
+	height: 937px; 
+	width: 1650px;
+	float: left;
+	
+}
